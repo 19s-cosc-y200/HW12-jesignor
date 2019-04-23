@@ -1,0 +1,35 @@
+Project Name: Homework 12
+Author: Julia Signorelli
+Date Last Modified: 23 April 2019
+-------------------------------------------------------------------------------------------------------------------------------------
+1. Write the HTML and CSS code for an embedded style sheet that configures links without underlines; a background color of white; 
+   text color of black; is in Arial, Helvetica, or a sans-serif font; and has a class called new that is bold and italic.
+
+CSS Code: (titled q1.css)
+body { background-color: white; color: black; font-family: Arial, Helvetica, sans-serif; }
+.new { font-weight: bold; font-style: italic; }
+a { text-decoration-line: none; color: black; }
+
+HTML Code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Question 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="q1.css">
+</head>
+<body>
+<main>
+	Normal and boring text. <br/>
+	<span class="new">Normal text with a bit of zest!</span><br/>
+	Click <a href="http://www.google.com">HERE</a> to go to Google so you can look up a definition of zest. 
+</main>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------
+2. Write the CSS code for an external style sheet that configures a page background color of #FFF8DC; has a text color of #000099; 
+   is in Arial, Helvetica, or a sans-serif font; and has an id called new that is bold and italic.
+
+body { background-color: #FFF8DC; color: #000099; font-family: Arial, Helvetica, sans-serif; }
+#new { font-weight: bold; font-style: italic; }
