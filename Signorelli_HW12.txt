@@ -27,6 +27,10 @@ HTML Code:
 </body>
 </html>
 
+embedded, not external
+colors should be in HEX
+should be am not body
+
 -------------------------------------------------------------------------------------------------------------------------------------
 2. Write the CSS code for an external style sheet that configures a page background color of #FFF8DC; has a text color of #000099; 
    is in Arial, Helvetica, or a sans-serif font; and has an id called new that is bold and italic.
